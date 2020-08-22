@@ -1,0 +1,10 @@
+Steps of basic page rank
+
+1.IN a graph of n nodes
+ All nodes start with page rank 1/n.
+ 
+2.Perform basic page rank update rule k times....
+  Basic PageRank update rule:Each node gives an equal share of its current PageRank to all the nodes it links to.
+  THe new page rank of each node is the sum of all the pagerank it recieved from other nodes.
+  
+For most networks, pagerank values converge as k gets larger.
